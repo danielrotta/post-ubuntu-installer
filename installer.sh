@@ -8,7 +8,8 @@ sudo apt install curl git xz-utils openjdk-8-jdk git-extras hwinfo
 # snap pack installs
 sudo snap install android-studio flutter code discord steam --classic
 
-# to do: set up environments
+# environments setup
+export JAVA_HOME=/usr/bin/java
 
 # for each repo:
 # git config credential.helper store
