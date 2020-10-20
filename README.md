@@ -1,6 +1,7 @@
 # post-ubuntu-installer
 ## installation
-'''bash
+
+```bash
 chmod +rx installer.sh
 ./installer.sh
-'''
+```
