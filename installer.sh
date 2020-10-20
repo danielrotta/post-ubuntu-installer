@@ -16,4 +16,3 @@ export JAVA_HOME=/usr/bin/java;
 
 # for each repo:
 # git config credential.helper store
-# git push https://github.com/repo.git
