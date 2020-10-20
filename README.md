@@ -4,6 +4,7 @@
 Copy and paste into terminal.
 
 ```bash
+sudo apt install git
 git clone https://github.com/danielrotta/post-ubuntu-installer
 chmod +rx installer.sh
 ./installer.sh
