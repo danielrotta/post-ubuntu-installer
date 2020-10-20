@@ -23,5 +23,7 @@ export JAVA_HOME=/usr/bin/java;
 
 # appearances
 
+# git downloads and config setup
+
 # for each repo:
 # git config credential.helper store
