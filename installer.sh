@@ -21,14 +21,11 @@ sudo snap install vlc -y;
 # environment setup
 export JAVA_HOME=/usr/bin/java;
 
-# appearances
 # set background
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/backgrounds/hardy_wallpaper_uhd.png;
 
 # set favorites
 gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_ubuntu-software.desktop', 'code_code.desktop', 'discord_discord.desktop']";
-
-# git downloads and config setup
 
 # for each repo:
 # git config credential.helper store
