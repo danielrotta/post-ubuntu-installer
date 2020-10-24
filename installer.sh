@@ -17,6 +17,7 @@ sudo snap install spotify;
 sudo snap install gimp;
 sudo snap install kdenlive;
 sudo snap install vlc;
+sudo snap install google-cloud-sdk --classic;
 
 # environment setup
 export JAVA_HOME=/usr/bin/java;
