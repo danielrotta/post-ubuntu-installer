@@ -18,6 +18,9 @@ sudo snap install gimp;
 sudo snap install kdenlive;
 sudo snap install vlc;
 sudo snap install google-cloud-sdk --classic;
+sudo snap install intellij-idea-community --classic;
+sudo snap install sqlitebrowser;
+sudo snap install djpdf;
 
 # environment setup
 export JAVA_HOME=/usr/bin/java;
@@ -32,6 +35,9 @@ gsettings set org.gnome.shell favorite-apps "['firefox.desktop', 'org.gnome.Naut
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/use-theme-transparency false
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/use-transparent-background true
 dconf write /org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9/background-transparency-percent 30
+
+# login to google for terminal ssh compute engine
+gcloud auth login;
 
 # for each repo:
 # git config credential.helper store
