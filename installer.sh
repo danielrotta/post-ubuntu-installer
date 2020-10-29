@@ -21,6 +21,7 @@ sudo snap install google-cloud-sdk --classic;
 sudo snap install intellij-idea-community --classic;
 sudo snap install sqlitebrowser;
 sudo snap install djpdf;
+sudo snap install signal-desktop;
 
 # environment setup
 export JAVA_HOME=/usr/bin/java;
