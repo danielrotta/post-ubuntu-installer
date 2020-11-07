@@ -23,6 +23,9 @@ sudo snap install sqlitebrowser;
 sudo snap install djpdf;
 sudo snap install signal-desktop;
 
+# vpn setup
+sudo apt install openvpn network-manager-openvpn-gnome resolvconf -y;
+
 # environment setup
 export JAVA_HOME=/usr/bin/java;
 
