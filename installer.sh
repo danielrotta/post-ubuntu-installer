@@ -22,6 +22,7 @@ sudo snap install intellij-idea-community --classic;
 sudo snap install sqlitebrowser;
 sudo snap install djpdf;
 sudo snap install signal-desktop;
+sudo snap install chromium;
 
 # vpn setup
 sudo apt install openvpn network-manager-openvpn-gnome resolvconf -y;
