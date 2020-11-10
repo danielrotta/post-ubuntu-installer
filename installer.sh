@@ -24,8 +24,10 @@ sudo snap install djpdf;
 sudo snap install signal-desktop;
 sudo snap install chromium;
 
-# npm installs
+# firebase install:
 # npm install -g firebase-tools; (requires root)
+# firebase login;
+# firebase init;
 
 # vpn setup
 sudo apt install openvpn network-manager-openvpn-gnome resolvconf -y;
