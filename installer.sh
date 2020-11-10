@@ -5,7 +5,7 @@ sudo apt update;
 sudo apt upgrade;
 
 # basic packages
-sudo apt install curl git xz-utils git-extras hwinfo openjdk-8-jdk -y;
+sudo apt install curl git xz-utils git-extras hwinfo openjdk-8-jdk npm -y;
 
 # snap pack installs
 sudo snap install android-studio --classic;
@@ -23,6 +23,9 @@ sudo snap install sqlitebrowser;
 sudo snap install djpdf;
 sudo snap install signal-desktop;
 sudo snap install chromium;
+
+# npm installs
+npm install -g firebase-tools;
 
 # vpn setup
 sudo apt install openvpn network-manager-openvpn-gnome resolvconf -y;
