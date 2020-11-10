@@ -25,7 +25,7 @@ sudo snap install signal-desktop;
 sudo snap install chromium;
 
 # npm installs
-npm install -g firebase-tools;
+# npm install -g firebase-tools; (requires root)
 
 # vpn setup
 sudo apt install openvpn network-manager-openvpn-gnome resolvconf -y;
