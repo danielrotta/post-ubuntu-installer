@@ -23,6 +23,7 @@ sudo snap install sqlitebrowser;
 sudo snap install djpdf;
 sudo snap install signal-desktop;
 sudo snap install chromium;
+sudo snap install brave;
 
 # firebase install:
 # npm install -g firebase-tools; (requires root)
