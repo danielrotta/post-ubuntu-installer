@@ -24,6 +24,7 @@ sudo snap install djpdf;
 sudo snap install signal-desktop;
 sudo snap install chromium;
 sudo snap install brave;
+sudo snap install youtube-dl;
 
 # firebase install:
 # npm install -g firebase-tools; (requires root)
